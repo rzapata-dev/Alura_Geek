@@ -32,7 +32,7 @@ async function crearProducto(evento) {
 
         await conexionAPI.enviarProducto(titulo, descripcion, imagen, precio);
         alert("Producto enviado con éxito");
-        window.location.reload();
+        // window.location.reload();
 
     } catch (error) {
         console.error("Error al enviar el producto:", error);
