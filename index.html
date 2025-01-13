@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura-Geek</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    
+</head>
+<body>
+    <div class="contenedor__principal"> 
+
+        <header class="header">
+            <nav class="menu__container">
+                
+                <img class="menu__logo" src="./images/aluraGeek-removebg-preview.png" alt="Logo de Alura Geek"/>
+                    
+            </nav>
+        </header>
+
+        <div class="container__sections">
+            
+
+            <div class="sections_card_product">
+                <h1>MIS PRODUCTOS:</h1>
+                <ul class="product-grid" role="list" alt="Lista de productos" data-lista>
+                  
+       
+                </ul>
+                
+              </div>
+
+            <div class="product-form" data-formulario> 
+                <div class="form-header"> 
+                    <h1 class="form-header-h1">AGREGAR PRODUCTO:</h1> 
+                </div> 
+                <!-- /<form data-formulario >  / -->
+                <form> 
+                    <input type="text" id="product-name" name="product-name" placeholder="Nombre del producto..." aria-label="Nombre del producto" data-titulo required>
+
+                    <input type="text" id="product-description" name="product-description" placeholder="Breve descripcion del producto" aria-label="descripcion del producto" data-descripcion required>
+                                        
+                    <input type="text" id="product-image-url" name="product-image-url" placeholder="URL de la imagen..." aria-label="URL de la imagen" data-imagen required>
+
+                    <!-- <input type="text" id="product-price" name="product-price" placeholder="Precio..." aria-label="Precio" data-precio required type="number"> -->
+                    <input type="number" id="product-price" name="product-price" placeholder="Precio..." aria-label="Precio" data-precio required step="any">
+
+                    
+                    <div class="form-buttons"> 
+                      <!-- <input class="formulario__boton" type="submit" /> -->
+                       <!--<button type="submit">Enviar</button>   -->
+                        <!-- <button type="reset">Limpiar</button>  -->
+                        <input class="form-buttons-enviar" type="submit" value="Enviar">
+                        <input class="form-buttons-limpiar" type="reset" value="Limpiar">
+                       
+                    </div> 
+
+                </form> 
+            </div>
+        </div>
+
+        <footer class="footer-container">
+            <nav class="footer-menu">
+                <ul class="footer-list">
+                    <li> 
+                        <img class="footer-logo-image" src="./images/aluraGeek-removebg-preview.png" 
+                        alt="Logo Alura" >     
+                    </li>
+                    <li> 
+                        <a class="footer-developed-by">Desarrollado por Richard Zapata</a>
+                    </li>
+                    <li>
+                      <a class="footer-year">ALURA LATAM 2025</a>
+                    </li>
+                </ul>
+            </nav>
+        </footer> 
+        
+    </div> 
+    <script src="./js/mostrarProductos.js" type="module"></script> 
+    <script src="./js/crearProducto.js" type="module"></script>
+    <script src="./js/eliminarProducto.js" type="module"></script>
+    <script src="./js/script.js"></script>
+    
+</body>
+</html>

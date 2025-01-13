@@ -1,0 +1,74 @@
+{
+  "productos": [
+    {
+      "id": "6be8",
+      "titulo": "Stormtrooper 8 Bits",
+      "descripcion": "Taza clasica de Stormtrooper en 8 bits",
+      "imagen": "https://srv.latostadora.com/image/stormtrooper-8-bits--id:2b3e6b02-5d31-43e3-8845-9eb029683c67;s:G_A1;b:f2f2f2;w:682;tpl:GA002;f:f;i:13562355501481356231.jpg",
+      "precio": "S/.55.00"
+    },
+    {
+      "id": "c32a",
+      "titulo": "Lámpara de Pikachu",
+      "descripcion": "Lámpara de Pikachu con luz LED",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_659653-MPE80004702372_102024-F.webp",
+      "precio": "S/.75.00"
+    },
+    {
+      "id": "6e90",
+      "titulo": "Mochila de Harry Potter",
+      "descripcion": "Mochila de Harry Potter con compartimento para laptop",
+      "imagen": "https://storage.googleapis.com/catalog-pictures-carrefour-es/catalog/pictures/hd_510x_/8445118003208_1.jpg",
+      "precio": "S/.80.00"
+    },
+    {
+      "id": "803e",
+      "titulo": "Consola Sega Genesis",
+      "descripcion": "Consola Sega Genesis con 80 juegos",
+      "imagen": "https://sm.ign.com/t/ign_latam/gallery/s/sega-genes/sega-genesis-flashback-console-from-atgames_u199.1080.jpg",
+      "precio": "S/.90.00"
+    },
+    {
+      "id": "955e",
+      "titulo": "Camiseta de Super Mario",
+      "descripcion": "Camiseta de Super Mario con estampado de alta calidad",
+      "imagen": "https://www.mandragorastore.com/wp-content/uploads/2023/03/Super-Mario-Bros-la-Pelicula-Mario-en-Accion-Tshirt-blue.jpg",
+      "precio": "S/.25.00"
+    },
+    {
+      "id": "e926",
+      "titulo": "Set de Lego de Batman",
+      "descripcion": "Set de Lego de Batman con 500 piezas",
+      "imagen": "https://www.gamezone.com.pe/wp-content/uploads/2022/02/70909_alt1.jpg",
+      "precio": "S/.85"
+    },
+    {
+      "id": "f691",
+      "titulo": "Cámara Polaroid vintage",
+      "descripcion": "Cámara Polaroid vintage con 10 fotos",
+      "imagen": "https://m.media-amazon.com/images/I/81zsBB3LaOL._AC_UF894,1000_QL80_.jpg",
+      "precio": "S/.65.00"
+    },
+    {
+      "id": "f3bc",
+      "titulo": "Bolsa de mano Persona 5",
+      "descripcion": "Bolsa de tela de la serie Persona 5",
+      "imagen": "https://prod-cdn-06.storenvy.com/product_photos/102174133/file_a7d031677c_original.jpg",
+      "precio": "S/.75.59"
+    },
+    {
+      "id": "9afd",
+      "titulo": "Zapatillas Rick And Morty",
+      "descripcion": "Zapatatillas personalizadas de Rick and Morty",
+      "imagen": "https://prod-cdn-02.storenvy.com/product_photos/85231021/file_bfa369cfbe_200sq.jpg",
+      "precio": "S/.260.80"
+    },
+    {
+      "id": "afc3",
+      "titulo": "Camiseta de Super Mario",
+      "descripcion": "Camiseta de Super Mario con estampado de alta calidad",
+      "imagen": "https://www.mandragorastore.com/wp-content/uploads/2023/03/Super-Mario-Bros-la-Pelicula-Mario-en-Accion-Tshirt-blue.jpg",
+      "precio": "S/.89.54"
+    }
+  ]
+}
